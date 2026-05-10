@@ -1,0 +1,23 @@
+# Ignore all submodule internal Git directories
+**/.git/
+
+#·CMake·build·directories
+/build/
+/build-*/
+/eclipse-build/
+/eclipse-build-*/
+
+#·CMake·generated·files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+#·Eclipse·CDT·metadata
+.project
+.cproject
+.settings/
+
+#·Eclipse·workspace·metadata
+.metadata/
